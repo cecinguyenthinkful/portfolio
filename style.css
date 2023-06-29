@@ -27,17 +27,21 @@ h3 {
   font-size: 15px;
 }
 
+hr {
+  color: black;
+}
+
 main > article > p {
   text-align: left;
 }
 
+.nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 .container {
   max-width: 900px; 
   margin: auto; 
-}
-
-hr {
-  color: black;
 }
 
 .image {
