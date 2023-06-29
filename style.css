@@ -5,6 +5,12 @@ body {
   padding: 0px;
 }
 
+header {
+  height: 130px;
+  margin-bottom: 5px;
+  padding: 1px;
+}
+
 header, footer {
   background-color: #4C061D;
   color: white;
@@ -25,25 +31,20 @@ main > article > p {
   text-align: left;
 }
 
-header {
-  height: 130px;
-  margin-bottom: 5px;
-  padding: 1px;
-}
-
 .container {
   max-width: 900px; 
   margin: auto; 
+}
+
+hr {
+  color: black;
 }
 
 .image {
   border-radius: 10px;
   display: block;
   margin: auto;
-}
-
-hr {
-  color: black;
+  width: 50%;
 }
 
 a:link {
