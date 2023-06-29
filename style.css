@@ -1,0 +1,60 @@
+body { 
+  background-color: #F6E9DF;
+  font-family: sans-serif, Arial, Helvetica;
+  margin: 0px;
+  padding: 0px;
+}
+
+header, footer {
+  background-color: #4C061D;
+  color: white;
+  width: 100%;
+  margin: 0px;
+  padding: 1%;
+}
+
+header, footer, h2, h3, nav {
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+main > article > p {
+  text-align: left;
+}
+
+header {
+  height: 130px;
+  margin-bottom: 5px;
+  padding: 1px;
+}
+
+.container {
+  max-width: 900px; 
+  margin: auto; 
+}
+
+.image {
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+hr {
+  color: black;
+}
+
+a:link {
+  color: #4C061D;
+}
+a:visited {
+  color: #FCB1CC;
+}
+a:hover {
+  color: #FF9E1F;
+}
+a:active {
+  color: #5FBB97;
+}
