@@ -1,5 +1,1 @@
-# Hi my name is Cecile
-
-# About Me
-
-# Contact Me
+First Portfolio Web Page Assignment that includes HTML and CSS code
