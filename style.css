@@ -7,16 +7,20 @@ body {
 
 header {
   height: 130px;
+  margin-top: -40px;
   margin-bottom: 5px;
   padding: 1px;
+}
+
+footer {
+  margin: 0px;
+  padding: 1%;
 }
 
 header, footer {
   background-color: #4C061D;
   color: white;
   width: 100%;
-  margin: 0px;
-  padding: 1%;
 }
 
 header, footer, h2, h3, nav {
@@ -24,7 +28,7 @@ header, footer, h2, h3, nav {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 hr {
@@ -32,16 +36,21 @@ hr {
 }
 
 main > article > p {
+  background-color: #F6E9DF;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-top: -50px;
   text-align: left;
+}
+
+.container {
+  max-width: 900px; 
+  margin: auto; 
 }
 
 .nav {
   padding-top: 5px;
   padding-bottom: 5px;
-
-.container {
-  max-width: 900px; 
-  margin: auto; 
 }
 
 .image {
